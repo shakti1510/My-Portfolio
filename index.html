@@ -1,27 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <title>Portfolio Website</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <div class="wrapper">
-      <div class="container">
-        <div class="navbar">
-          <div class="logo-container">
-            <img src="images/userAsset/nav_logo.jpg" class="logo" />
-            <div class="logo-text">hashank_M_N</div>
-          </div>
-          <div class="nav-items">
-            <div><a href="Skills">Skills</a></div>
-            <div><a href="Project">Project</a></div>
-            <div><a href="Contact_Me">Contact Me</a></div>
-          </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shashank M N</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script> 
+  <script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+(function(){
+emailjs.init("hO8p4Bu05TdXSY7rt");
+})();
+</script>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="container">
+      <div class="navbar">
+        <div class="logo-container" id="home">
+          <img src="./images/userAsset/nav_logo.jpg" class="logo" />
+          <div class="logo-text">hashank M N.</div>
+        </div>
+
+        <div class="nav-item">
+          <div><a href="#projects"> <span class="number">01.</span>Projects</a></div>
+          <div><a href="#aboutme"> <span class="number">02.</span>About Me</a></div>
+          <div> <a href="#skills"> <span class="number">03.</span>Skills</a></div>
+          <div><a href="#contactme"> <span class="number">04.</span>Contact Me</a></div>
         </div>
       </div>
+
       <div class="hero-section">
         <div class="faded-text">Shashank M N</div>
 
@@ -36,14 +50,12 @@
           </div>
 
           <div class="hero-section-description">
-            I’m a Aspiring Software Developer and here is my portfolio website.
-            Here you’ll learn about my journey.
+            I’m a Aspiring and Enthusiastic Software Developer and here this is my portfolio website.
+            Here you can see about my learning journey.
           </div>
-          <!-- https://drive.google.com/file/d/14Vkxf0wTnp3zhMJ1OanzHbDaH1on87Py/view?usp=sharing -->
-          <a
-            href="https://drive.google.com/uc?export=download&id=14Vkxf0wTnp3zhMJ1OanzHbDaH1on87Py"
-            ><div class="btn-pink" id="btn">Hire Me</div></a
-          >
+          <a href="">
+            <div class="btn-pink" id="btn">Hire Me</div>
+          </a>
         </div>
 
         <div class="hero-section-right">
@@ -63,160 +75,213 @@
             <img src="./images/userAsset/plus.png" alt="" />
           </div>
           <div class="user-image">
-            <img src="./images/userAsset/smnpic.png" alt="" height="450" width="450" />
+            <img src="./images/userAsset/smnpic.png" alt="" />
           </div>
         </div>
       </div>
-      <div class="project-section">
-        <h2 class="page-header">Projects</h2>
-  
-  
-        <div class="project-container">
-          <div class="project-card" id="project1">
-            <div class="project-number project-number-right ">01</div>
-            <div class="project-content project-content-left">
-              <div class="project-skills-container"> 
-                <!-- Subject to be changed based on project tech stacks -->
-                <img class="project-skill" src="images/stack/HTML.png" alt="">
-                <img class="project-skill" src="images/stack/HTML.png" alt="">
-                <img class="project-skill" src="images/stack/HTML.png" alt="">
-                <img class="project-skill" src="images/stack/HTML.png" alt="">
-                <img class="project-skill" src="images/stack/HTML.png" alt="">
-              </div>
-              <h2 class="project-heading">First Project</h2>
-              <div class="project-subheading">Project description</div>
-              <div class="btn-grp">
-                <button class="btn-pink btn-project">Read More</button>
-                <a href="">
-                  <i title="GitHubLink" class="fa-brands fa-github icon"></i>
-                </a>
-                <a href="">
-                  <i title="Live Link" class="fa-solid fa-link icon"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="project-card" id="project2">
-            <div class="project-number project-number-left">02</div>
-            <div class="project-content project-content-right">
-              <div class="project-skills-container"> 
-                <!-- Subject to be changed based on project tech stacks -->
-                <img class="project-skill" src="images/stack/HTML.png" alt="">
-                <img class="project-skill" src="images/stack/HTML.png" alt="">
-                <img class="project-skill" src="images/stack/HTML.png" alt="">
-                <img class="project-skill" src="images/stack/HTML.png" alt="">
-                <img class="project-skill" src="images/stack/HTML.png" alt="">
-              </div>
-              <h2 class="project-heading">Second Project</h2>
-              <div class="project-subheading">Project description</div>
-              <div class="btn-grp">
-                <button class="btn-pink btn-project">Read More</button>
-                <a href="">
-                  <i title="GitHubLink" class="fa-brands fa-github icon"></i>
-                </a>
-                <a href="">
-                  <i title="Live Link" class="fa-solid fa-link icon"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="project-card" id="project3">
-            <div class="project-number project-number-right">03</div>
-            <div class="project-content project-content-left">
-              <div class="project-skills-container"> 
-                <!-- Subject to be changed based on project tech stacks -->
-                <img class="project-skill" src="images/stack/HTML.png" alt="">
-                <img class="project-skill" src="images/stack/HTML.png" alt="">
-                <img class="project-skill" src="images/stack/HTML.png" alt="">
-                <img class="project-skill" src="images/stack/HTML.png" alt="">
-                <img class="project-skill" src="images/stack/HTML.png" alt="">
-              </div>
-              <h2 class="project-heading">Third Project</h2>
-              <div class="project-subheading">Project description</div>
-              <div class="btn-grp">
-                <button class="btn-pink btn-project">Read More</button>
-                <a href="">
-                  <i title="GitHubLink" class="fa-brands fa-github icon"></i>
-                </a>
-                <a href="">
-                  <i title="Live Link" class="fa-solid fa-link icon"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        </div>
-      </div>
-      <div class="skill-fade-text">Skills</div>
+    </div>
+    <div class="project-section" id="projects">
+      <h2 class="page-header">Projects</h2>
 
-      <div class="skills-container-left">
-        <h2 class="skills-heading">
-          <span class="cpas">M</span>e and
+
+      <div class="project-container">
+        <div class="project-card" id="project1">
+          <div class="project-number project-number-right ">01</div>
+          <div class="project-content project-content-left">
+            <div class="project-skills-container"> 
+              <!-- Subject to be changed based on project tech stacks -->
+              <img class="project-skill" src="images/stack/HTML.png" alt="">
+              <img class="project-skill" src="images/stack/CSS.png" alt="">
+              <img class="project-skill" src="images/stack/React.png" alt="">
+              <img class="project-skill" src="images/stack/Javascript.svg" alt="">
+              <!-- <img class="project-skill" src="images/stack/HTML.png" alt=""> -->
+            </div>
+            <h2 class="project-heading">Car Management</h2>
+            <div class="project-subheading">Java Project using APIs</div>
+            <div class="btn-grp">
+              <button class="btn-pink btn-project">Read More</button>
+              <a href="">
+                <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+              </a>
+              <a href="">
+                <i title="Live Link" class="fa-solid fa-link icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card" id="project2">
+          <div class="project-number project-number-left">02</div>
+          <div class="project-content project-content-right">
+            <div class="project-skills-container"> 
+              <!-- Subject to be changed based on project tech stacks -->
+              <img class="project-skill" src="images/stack/HTML.png" alt="">
+              <img class="project-skill" src="images/stack/CSS.png" alt="">
+              <img class="project-skill" src="images/stack/React.png" alt="">
+              <img class="project-skill" src="images/stack/Javascript.svg" alt="">
+              <!-- <img class="project-skill" src="images/stack/HTML.png" alt=""> -->
+            </div>
+            <h2 class="project-heading">Second Project</h2>
+            <div class="project-subheading">Project description</div>
+            <div class="btn-grp">
+              <button class="btn-pink btn-project">Read More</button>
+              <a href="">
+                <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+              </a>
+              <a href="">
+                <i title="Live Link" class="fa-solid fa-link icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card" id="project3">
+          <div class="project-number project-number-right">03</div>
+          <div class="project-content project-content-left">
+            <div class="project-skills-container"> 
+              <!-- Subject to be changed based on project tech stacks -->
+              <img class="project-skill" src="images/stack/HTML.png" alt="">
+              <img class="project-skill" src="images/stack/CSS.png" alt="">
+              <!-- <img class="project-skill" src="images/stack/React.png" alt=""> -->
+              <img class="project-skill" src="images/stack/Javascript.svg" alt="">
+            </div>
+            <h2 class="project-heading">Third Project</h2>
+            <div class="project-subheading">Project description</div>
+            <div class="btn-grp">
+              <button class="btn-pink btn-project">Read More</button>
+              <a href="">
+                <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+              </a>
+              <a href="">
+                <i title="Live Link" class="fa-solid fa-link icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+        
+      </div>
+    </div>
+    <div id="skills" class="container skill-container">
+      <div class="skill-fade-text">Skills</div>
+      <div class="skill-container-left" id="aboutme">
+        <h2 class="skill-heading">
+          <span class="caps">I</span> and
+          <br />
           MyTech Stack
         </h2>
-        <div class="skills-subleading">
+
+        <div class="skill-subHeading" >
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias officiis quidem eaque, animi accusamus magnam facere quod neque, cumque quia aliquid! Minima quisquam maxime perspiciatis? Adipisci a provident beatae deleniti.
-            Soluta illo facere aliquid magnam ratione provident obcaecati suscipit! Numquam eligendi aperiam amet laboriosam voluptatum modi id ratione perferendis reiciendis eveniet cumque quas neque, exercitationem temporibus ad velit tenetur quis.
-            Officia, est facilis impedit quis doloribus at ullam illo quas obcaecati totam nisi itaque. Culpa, est et incidunt ipsam iste beatae quisquam qui, voluptate quas aut nobis voluptatibus ut iure?
-            Totam iste nemo odit est? Praesentium quae voluptatum debitis voluptate, exercitationem beatae animi sapiente eius nulla quod mollitia a quisquam suscipit. Nobis odio rerum voluptatum aut temporibus mollitia, ducimus esse.
-            Consequatur magni eos distinctio iure sit, optio, quod voluptatem repellendus velit enim assumenda ipsum quidem. Odit maxime amet id, voluptas nulla odio aperiam necessitatibus officiis itaque fugit totam tempora! Consectetur.
+            Being a B.Sc graduate with Computer Science as Major, I am an enthusiastic student ready to explore the real world implementation of the all sort of technologies. My present goal is to work with an organization where i can exponentionally upskill myself in the tech and coporate world to provide significate yield to the organization.
           </p>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis neque repellat deleniti ut officiis impedit aliquid obcaecati totam, eius incidunt facilis alias, quis omnis qui labore perspiciatis exercitationem tempora recusandae!
-            A unde amet officia recusandae maiores error. Praesentium quo inventore eum modi ipsam, similique doloremque nostrum nulla! Quos, voluptates? Dolore fuga totam vitae tenetur officiis vero illum nulla doloribus quos?
-            Autem natus dolorem fugit explicabo eaque maiores maxime. Iste molestias aut beatae a ipsa aperiam porro voluptate quam, suscipit illo magnam, debitis rerum eaque asperiores facilis quo earum id hic.
+            As a tech enthusiast, I'm currently exploring in Software Development, Full Stack Development & completed B.Sc from Nrupathunga University and love exploring new technologies.
           </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis impedit quae cumque veritatis aut alias. Non necessitatibus deleniti dolores pariatur ipsum, atque sit ea sint qui aperiam nam eum molestias!
-            Corrupti reprehenderit quaerat eveniet quia hic illum pariatur dignissimos porro, magnam quo! Eius ab reiciendis delectus veritatis corrupti amet tenetur vitae pariatur natus debitis alias harum incidunt quam, obcaecati atque.
-            Tempora, impedit. Incidunt mollitia magni quaerat, quas quia dolor nisi tenetur maxime iusto tempora blanditiis aliquid, laborum nemo voluptatum deleniti nobis provident id odio saepe accusantium atque recusandae aspernatur rerum!
-          </p>
+          <!-- <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quidem
+            quos ullam veritatis voluptates tenetur qui ipsa nulla culpa itaque?
+          </p> -->
+          
         </div>
       </div>
       <div class="skill-container-right">
-        <img src="./images/stack/HTML.png" alt="" class="skills-logo" height="50" width="50"/>
-        <img src="./images/stack/CSS.png" alt="" class="skills-logo" height="50" width="50"/>
-        <img src="./images/stack/Javascript.svg" alt="" class="skills-logo" height="50" width="50"/>
-        <img src="./images/stack/React.png" alt="" class="skills-logo" height="50" width="50"/>
-        <img src="./images/stack/NodeJs.svg" alt="" class="skills-logo" height="50" width="50"/>
-        <img src="./images/stack/Next.svg" alt="" class="skills-logo" height="50" width="50"/>
-        <img src="./images/stack/Redux.svg" alt="" class="skills-logo" height="50" width="50"/>
-        <img src="./images/stack/Tailwind.png" alt="" class="skills-logo" height="50" width="50"/>
-        <img src="./images/stack/Bootstrap.svg" alt="" class="skills-logo" height="50" width="50"/>
-        <img src="./images/stack/MaterialUI.svg" alt="" class="skills-logo" height="50" width="50"/>
-        <img src="./images/stack/Express.png" alt="" class="skills-logo" height="50" width="50"/>
-        <img src="./images/stack/Git.svg" alt="" class="skills-logo" height="50" width="50"/>
-        <img src="./images/stack/Github.svg" alt="" class="skills-logo" height="50" width="50"/>
-        <img src="./images/stack/MongoDB.svg" alt="" class="skills-logo" height="50" width="50"/>
-        <img src="./images/stack/Vercel.svg" alt="" class="skills-logo" height="50" width="50"/>
-        <img src="./images/stack/ChartJs.svg" alt="" class="skills-logo" height="50" width="50"/>
-        <img src="./images/stack/Bash.svg" alt="" class="skills-logo" height="50" width="50"/>
-        <img src="./images/stack/Docker.svg" alt="" class="skills-logo" height="50" width="50"/>
-        <img src="./images/stack/K8s.svg" alt="" class="skills-logo" height="50" width="50"/>
-        <img src="./images/stack/netlify.svg" alt="" class="skills-logo" height="50" width="50"/>
+        <img src="./images/userAsset/blob vector.png" class="blob-style" alt="" />
+
+        <img src="./images/stack/HTML.png" alt="" class="skills-logo" />
+        <img src="./images/stack/CSS.png" alt="" class="skills-logo" />
+        <img src="./images/stack/Javascript.svg" alt="" class="skills-logo" />
+        <img src="./images/stack/React.png" alt="" class="skills-logo" />
+        <img src="./images/stack/NodeJs.svg" alt="" class="skills-logo" />
+        <img src="./images/stack/Next.svg" alt="" class="skills-logo" />
+        <img src="./images/stack/Redux.svg" alt="" class="skills-logo" />
+        <img src="./images/stack/Tailwind.png" alt="" class="skills-logo" />
+        <img src="./images/stack/Bootstrap.svg" alt="" class="skills-logo" />
+        <img src="./images/stack/MaterialUI.svg" alt="" class="skills-logo" />
+        <img src="./images/stack/Express.png" alt="" class="skills-logo" />
+        <img src="./images/stack/Git.svg" alt="" class="skills-logo" />
+        <img src="./images/stack/Github.svg" alt="" class="skills-logo" />
+        <!-- <img src="./images/stack/Graphql.svg" alt="" class="skills-logo" /> -->
+        <img src="./images/stack/MongoDB.svg" alt="" class="skills-logo" />
+        <img src="./images/stack/Vercel.svg" alt="" class="skills-logo" />
+        <img src="./images/stack/ChartJs.svg" alt="" class="skills-logo" />
+        <img src="./images/stack/Bash.svg" alt="" class="skills-logo" />
+        <img src="./images/stack/Docker.svg" alt="" class="skills-logo" />
+        <img src="./images/stack/K8s.svg" alt="" class="skills-logo" />
+        <img src="./images/stack/netlify.svg" alt="" class="skills-logo" />
       </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-    <script
-      src="https://kit.fontawesome.com/58a810656e.js"
-      crossorigin="anonymous"
-    ></script>
-    <script>
-      var typeData = new Typed(".role", {
-        strings: [
-          "Coder",
-          "Software Developer",
-          "Full Stack Developer",
-          "Web Developer",
-          "UI-UX Designer",
-          "Backend Developer",
-        ],
-        loop: true,
-        typeSpeed: 100,
-        backSpeed: 80,
-        backDelay: 0,
-      });
-    </script>
-  </body>
-  </html>
+    <div class="contactus-form-container" id="contactme">
+      <div class="container">
+
+        <h1 class="contactus-heading">Contact me</h1>
+
+        <h3 class="contactus-sub-heading">
+          Queries, doubts, or just want to leave a hello?
+        </h3>
+
+
+        <div class="contactus-form-container">
+          <form class="form" action="javascript:void(0)">
+            <div class="formfield-container">
+              <input class="formfield" type="text" name="name" id="name" placeholder="Full Name" required/>
+
+              <input class="formfield" type="email" name="email" id="email" placeholder="Enter your email address" required/>
+
+              <!-- <input class="formfield" type="text" name="subject" id="subject" placeholder="Enter your subject" /> -->
+
+              <textarea name="message" id="message" cols="30" rows="10" class="formfield formfield-textarea" placeholder="Enter your message" required></textarea>
+
+            </div>
+            
+            <div>
+              <button type="submit" class="btn-pink" id="submit-btn" onclick="sendMail()">
+                Send Message<i class="submit-icon fa-solid fa-paper-plane"></i>
+              </button>
+            </div>
+
+          </form>
+
+        </div>
+
+
+      </div>
+    </div>
+
+    <footer>
+      <div class="container">
+        <div class="footer-wrapper">
+          <div class="footer-faded-text">Shashank M N</div>
+
+          <div class="link-wrapper">
+            <div>
+              <a href="#home">Home</a>
+            </div>
+            <div>
+              <a href="#skills">About</a>
+            </div>
+            <div>
+              <a href="#projects">Projects</a>
+            </div>
+            <div>
+              <a href="#skills">Skills</a>
+            </div>
+            <div>
+              <a href="#contactme">Contact Me</a>
+            </div>
+          </div>
+
+          <div class="icon-wrapper">
+           <a href="https://www.linkedin.com/in/shashank-mn-336097174/" target="_blank"><i class="fa-brands fa-linkedin icon"></i></a>
+            <a href="https://github.com/shakti1510" target="_blank"><i class="fa-brands fa-github icon"></i></a>
+            <a href="https://www.instagram.com/shashank1510027/" target="_blank"><i class="fa-brands fa-instagram icon"></i></a>
+            <a href="shashankmnshakti95288@gmail.com" target="_blank"><i class="fa-regular fa-envelope icon"></i></a>
+          </div>
+
+        </div>
+      </div>
+    </footer>
+
+  </div>
+ 
+</body>
+
+</html>
