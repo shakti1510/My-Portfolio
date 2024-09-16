@@ -25,7 +25,7 @@
   justify-content: space-between;
   align-items: center;
   padding-top: 1rem;
-  background-color:aliceblue ;
+  background-color: aliceblue;
 }
 .logo {
   width: 80px;
@@ -120,7 +120,7 @@ a {
 
 .hero-section-description {
   margin-top: 1rem;
-  width: 70%;
+  width: 85%;
   font-weight: 600;
 }
 
@@ -507,14 +507,14 @@ a {
   position: relative;
   display: flex;
   padding: 5rem;
-  margin: 10rem auto;
+  margin: 5rem auto -2rem auto;
   gap: 30px;
   overflow-y: hidden;
   overflow-x: hidden;
 }
 
 .skill-container-left {
-  width: 50%;
+  width: 60%;
   display: flex;
   flex-direction: column;
 }
@@ -530,12 +530,12 @@ a {
 
 .skill-fade-text {
   position: absolute;
-  font-size: 6em;
+  font-size: 10em;
   font-style: bold;
   font-weight: 900;
   color: rgb(231, 231, 231);
   bottom: -5%;
-  right: -2%;
+  /* right: 2%; */
   user-select: none;
   overflow-y: hidden;
 }
@@ -557,7 +557,7 @@ a {
 }
 
 .skills-logo {
-  width: 90px;
+  width: 100px;
   transition: all 0.5s;
 }
 
@@ -578,7 +578,7 @@ a {
 
 .skill-subHeading {
   margin-top: 1rem;
-  width: 85%;
+  width: 90%;
   text-align: justify;
 }
 
@@ -697,4 +697,3 @@ footer {
   display: flex;
   gap: 1.2rem;
 }
-
